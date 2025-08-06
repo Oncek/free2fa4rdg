@@ -10,8 +10,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: gray;
-  color: #333;
+  background-color: #f4f6f9;
+  color: #2d3436;
 }
 
 .container {
@@ -21,15 +21,15 @@ body {
 }
 
 header {
-  background: #333;
-  color: #fff;
+  background: #2c3e50;
+  color: #ffffff;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: #bbb 1px solid;
+  border-bottom: #3498db 1px solid;
 }
 
 header a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
@@ -63,12 +63,12 @@ header nav {
 
 header .highlight,
 header .current a {
-  color: #e8491d;
+  color: #1abc9c;
   font-weight: 700;
 }
 
 header a:hover {
-  color: #fff;
+  color: #ffffff;
   font-weight: 700;
 }
 
@@ -79,7 +79,7 @@ header a:hover {
 
 h2 {
   font-size: 24px;
-  color: #333;
+  color: #2c3e50;
   margin-bottom: 20px;
 }
 
@@ -95,9 +95,9 @@ input[type="number"],
 input[type="password"],
 textarea,
 select {
-  background-color: #707070;
-  color: #fff;
-  border: 1px solid #606060;
+  background-color: #ecf0f1;
+  color: #2d3436;
+  border: 1px solid #bdc3c7;
   padding: 10px;
   border-radius: 4px;
   margin: 3px;
@@ -108,15 +108,15 @@ input[type="number"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border-color: #000;
-  box-shadow: 0 0 5px #131313;
+  border-color: #3498db;
+  box-shadow: 0 0 5px #3498db;
 }
 
 .section button,
 .section input[type="submit"],
 * button {
-  background-color: #6a6a6a;
-  color: #fff;
+  background-color: #3498db;
+  color: #ffffff;
   border: none;
   padding: 10px 20px;
   border-radius: 4px;
@@ -128,7 +128,7 @@ select:focus {
 .section button:hover,
 .section input[type="submit"]:hover,
 * button:hover {
-  background-color: #5a5a5a;
+  background-color: #1abc9c;
 }
 
 .section ul {
@@ -288,7 +288,7 @@ input[type="checkbox"]:checked::after {
   bottom: 0;
   width: 180px;
   height: 30px;
-  background-color: grey;
+  background-color: #7f8c8d;
   border: none;
 }
 
@@ -297,22 +297,22 @@ input[type="checkbox"]:checked::after {
   position: fixed;
   top: 0;
   right: 0;
-  background-color: #f44336;
+  background-color: #e74c3c;
   color: white;
   text-align: center;
-  border: 1px solid #ddd;
+  border: 1px solid #c0392b;
   padding: 10px;
   z-index: 1000;
 }
 
 .notification-success,
 .notification-error {
-  background-color: #4caf50;
+  background-color: #2ecc71;
   position: fixed;
   top: 20px;
   right: 20px;
   padding: 10px;
-  color: #333;
+  color: #ffffff;
   border: none;
   border-radius: 0;
   display: none;
@@ -320,7 +320,7 @@ input[type="checkbox"]:checked::after {
 }
 
 .notification-error {
-  background-color: #f44336;
+  background-color: #e74c3c;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -393,12 +393,12 @@ input[type="number"] {
 #usersTable td {
   padding: 8px;
   text-align: left;
-  border: 1px solid #5a5a5a;
+  border: 1px solid #2c3e50;
   color: #fff; 
 }
 
 #usersTable th {
-  background-color: #6a6a6a;
+  background-color: #34495e;
   position: sticky;
   top: 0;
   z-index: 10;
