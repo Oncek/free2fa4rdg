@@ -76,7 +76,7 @@ The installation script has been tested on Ubuntu 22.04 LTS and CentOS 7. Howeve
    ```
 4. Run the installation script:
    ```
-   curl -o install.sh https://raw.githubusercontent.com/CLLlAgOB/free2fa4rdg/main/install.sh && bash install.sh
+   curl -o install.sh https://raw.githubusercontent.com/Oncek/free2fa4rdg/main/install.sh && bash install.sh
    ```
 5. Follow the script instructions.
 6. Create a dns entry for the admin portal (https://free2fa4rdg_admin_html by default) or the name you specified in the ADDITIONAL_DNS_NAME_FOR_ADMIN_HTML parameter. Default password and login for the admin portal: admin admin.
