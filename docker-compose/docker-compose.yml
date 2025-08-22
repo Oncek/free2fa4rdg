@@ -24,7 +24,6 @@ services:
     volumes:
       - free2fa4rdg_admin_html_certs:/etc/nginx/certs
       - free2fa4rdg_ca_certs:/usr/local/share/ca-certificates/
-      - /opt/2fa/static:/usr/share/nginx/html/static
     networks:
        - free2fa4rdg_admin_network
     depends_on:
